@@ -1,0 +1,72 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1{
+    margin: 50px;
+}
+
+.opcoes{
+    width: 600px;
+    margin: auto;
+}
+
+.inputs{
+    /* border: 2px solid red; */
+    margin: 20px;
+}
+
+input, select{
+    border: 2px solid black;
+
+    padding: 5px;
+    width: 300px;
+}
+
+option{
+    background-color: black;
+    color: white;
+}
+
+#botao{
+    cursor: pointer;
+
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid black;
+
+    padding: 10px 50px;
+
+    transition: 0.5s;
+}
+
+#botao:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+
+    height: 60px;
+    width: 100%;
+    margin-top: 65vh;
+    padding-top: 20px;
+
+    text-align: center;
+    align-items: center;
+}
